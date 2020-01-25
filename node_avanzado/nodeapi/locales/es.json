@@ -1,0 +1,22 @@
+{
+	"TEXT": "Esto es un texto",
+	"HELLO": "Hola %s, nací en %s",
+	"NAME_AND_AGE": "Mi nombre es {{name}}, y tengo {{age}} años",
+	"MOUSE": {
+		"one": "%s Ratón",
+		"other": "%s Ratones"
+	},
+	"Welcome to": "Bienvenido a",
+	"HOME": {
+		"INJECTION": "HOME.INJECTION"
+	},
+	"hola, he conseguido inyectar codigo": "hola, he conseguido inyectar codigo",
+	"(C) 2018 by loquesea": "(C) 2018 por loquesea",
+	"HOME.HEADER.COPYRIGHT_NOTICE": "HOME.HEADER.COPYRIGHT_NOTICE",
+	"Hola": "Hola",
+	"This is an amazing app": "Esta es una app estupenda",
+	"Login": "Acceso",
+	"Please login to access": "Por favor identifíquese",
+	"Send email": "Send email",
+	"Send file": "Send file"
+}
