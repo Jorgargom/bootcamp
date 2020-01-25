@@ -28,7 +28,7 @@
     "mocha": "^4.0.1",
     "mockgoose": "^7.3.3",
     "mongoose": "^4.13.12",
-    "morgan": "~1.8.1",
+    "morgan": "~1.9.1",
     "nodemon": "^1.17.3",
     "path": "^0.12.7",
     "request": "^2.81.0",
