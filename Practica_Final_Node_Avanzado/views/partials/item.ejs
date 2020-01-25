@@ -1,0 +1,33 @@
+<% for (let key in anuncios){ %>
+
+<% var tipoAnuncio = (anuncios[key].venta) ? "venta" : "busqueda"; %>
+
+
+<article class="col-sm-6 col-md-6 col-lg-4" data-id="1">
+    <div class="item <%= tipoAnuncio %>">
+
+        <div class="item-info break_word">
+
+            <picture>
+                <img class="thumb" src="<%=anuncios[key].foto%>" >
+            </picture>
+            <div class="text-info">
+                <a href="/?venta=<%= anuncios[key].venta %>">
+                <div class="typeArticle">
+                    <%= tipoAnuncio.toUpperCase() %>
+                </div>
+                </a>
+                <h1><%= anuncios[key].nombre %></h1>
+                <div class="price"><%= anuncios[key].precio %>€</div>
+                <div class="tag">
+                        <span class="glyphicon glyphicon-tags"></span>
+                        <% for (let key2 in anuncios[key].tags){ %>
+                        <a href="/?tags=<%= anuncios[key].tags[key2] %>"> <%= anuncios[key].tags[key2] %> </a>
+                        <%}%>
+                    </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<% } %>

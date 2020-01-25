@@ -1,0 +1,39 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">@ Jorge García Gómez</a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li>
+          <a href="/anuncio" type="button" class="btn btn-sm btn-logout">
+            <span class="glyphicon glyphicon-plus"></span><%= __('New Ad')%>
+          </a>
+        </li>
+        <li>
+          <a href="/logout" type="button" class="btn btn-sm btn-logout">
+            <span class="glyphicon glyphicon-log-out"></span> Log out
+          </a>
+        </li>
+
+        <% getLocales().forEach( lang => { %>
+        <li id="flag_<%=lang%>"><a href="/lang/<%= lang %>"><span class="flag-icon flag-icon-<%=lang%>"></span></a></li>
+        <% }) %>
+
+        <%include search.ejs %>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+.alone{
+  clear: both;
+}
+
+.pagination>.active>a{
+  z-index: 0 !important;
+}
+
+.error{
+  text-align: center;
+  margin-top: 80px;
+}
