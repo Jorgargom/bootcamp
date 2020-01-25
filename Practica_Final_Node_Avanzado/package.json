@@ -27,7 +27,7 @@
     "localStorage": "^1.0.3",
     "mocha": "^4.0.1",
     "mockgoose": "^7.3.3",
-    "mongoose": "^4.13.12",
+    "mongoose": "^5.7.5",
     "morgan": "~1.8.1",
     "nodemon": "^1.17.3",
     "path": "^0.12.7",
