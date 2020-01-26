@@ -1,0 +1,21 @@
+{
+  "name": "gitmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "install": "^0.10.4",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
+}
