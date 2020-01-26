@@ -1,0 +1,24 @@
+"use strict";
+
+//patron factory
+
+function creaAgente(nombre) {
+  return {
+    getNombre: function() {
+      return nombre;
+    },
+    setNombre: function() {
+      nombre = valor;
+    },
+    saluda: function() {
+      console.log(`Hola soy ${nombre}`);
+    }
+  };
+}
+
+const jones = creaAgente("Jones");
+jones.saluda();
+//console.log(jones);
+
+const brown = creaAgente("Brown");
+brown.saluda();
