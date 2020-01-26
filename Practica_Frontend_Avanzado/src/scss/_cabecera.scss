@@ -1,0 +1,131 @@
+/******************* ESTILOS CABECERA *********************/
+.navigation {
+		list-style: none;
+		margin: 10px;
+
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+
+		-webkit-flex-flow: row wrap;
+		justify-content: space-between;
+  }
+
+  .cabecera {
+	  border-bottom: 5px solid $color-primary-1;
+	  width: 100%;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  background-color: white;
+	  z-index: 9999;
+
+	  form,
+	  .nombre-app,
+	  .acceso,
+	  .registro,
+	  .autor-comentarios {
+		  display: inline-block; 
+	  }
+
+	  .ion-social-designernews {
+		  font-size: 250%;
+	  }
+
+	  .nombre-app {
+		  font-size: $font-size-large;
+		  color: $logo-color;
+		  margin-top: 10px;
+	  }
+
+	  .navigation {
+		  .categoria {
+			  display: none;
+		  }
+	  }
+
+	  .acceso,
+	  .registro {
+		  font-size: $font-size-small;
+		  color: $logo-color;
+		  float: left;
+	  }
+
+	  .acceso,
+	  .registro,
+	  #buscador {
+		  display: none;
+	  }
+
+	  ul.categorias {
+		  display:none;
+	  }
+
+	  @include if-is-tablet {
+		  .acceso,
+		  .registro,
+		  #buscador {
+			  display: inline-block;
+			  font-size: $font-size-tablet;
+		  }
+
+		  .acceso,
+		  .registro {
+			  margin-top: 15px;
+		  }
+
+		  #buscador {
+			  margin-top: 10px;
+		  }
+
+	  }
+
+	  @include if-is-desktop {
+		  .acceso,
+		  .registro,
+		  #buscador {
+			  display: inline-block;
+			  font-size: $font-size-tablet;
+		  }
+
+		  .acceso,
+		  .registro {
+			  margin-top: 5px;
+			  color: $color-primary-4;
+		  }
+
+		  #buscador {
+			  margin-top: 25px;
+		  }
+
+		  #icono_menu_sustituto {
+			  display: none;
+		  }
+
+		  #icono_menu_sustituto {
+			  display: none;
+		  }
+
+		  .navigation {
+			  .categoria {
+				  margin-top: 30px;
+				  display: inline-block;
+				  text-decoration: none;
+				  color: $color-primary-2;
+			  }
+		  }
+	  }
+
+	  .menu {
+		  font-size:250%;
+		  color: $logo-color;
+
+	  }
+	  #buscador {
+		  border: 1px solid $borde-buscador;
+	  }
+
+  }
+  /******************* ESTILOS CABECERA *********************/

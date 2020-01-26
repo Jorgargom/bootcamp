@@ -1,0 +1,97 @@
+.primera-seccion {
+	margin-top: 100px;
+}
+
+.articulo {
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.articulo-foto-autor {
+	border-radius: 50%;
+	float: left;
+	margin-right: 5px;
+	width: 40px;
+}
+
+.articulo-autor-nombre {
+	color: $articulo-autor-nombre-color;
+	margin-bottom: 3px;
+}
+
+.autor-fecha-publicacion {
+	margin-bottom: 15px;
+}
+
+.articulo-titulo {
+	font-size: $font-size-large;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: $articulo-titulo;
+}
+
+.articulo-parrafo-resumen {
+	text-align: justify;
+	margin-top: 10px;
+}
+
+.articulo-me-gusta,
+.autor-comentarios {
+	display: inline-block;
+	cursor: pointer;
+	margin: 10px 0px;
+	font-size: 110%;
+	color: $articulo-me-gusta;
+}
+
+.ion-person
+{
+	font-size:250%;
+}
+
+.autor-me-gusta {
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+.autor-comentarios {
+	float: right;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* FORMULARIO ALTA DE COMENTARIO */
+/* ------------------------------------------------------------------------------------------ */
+.cien-o-mas-palabras {
+	color: $cien-o-mas-palabras;
+}
+.menos-cien-palabras {
+	color: $menos-cien-palabras;
+}
+
+.menos-diez-palabras {
+	color: $menos-diez-palabras;
+}
+
+.comentarios-formulario-alta{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+.enviar-formulario {
+	cursor: pointer;
+}
+
+*:focus {outline: none;}

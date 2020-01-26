@@ -1,0 +1,13 @@
+
+@import "~reset-css/reset";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700"); // Google fonts
+@import "responsive-utilities";
+@import "reset"; 		// Idéntico comportamiento en todos los navegadores
+@import "clearfix"; 	// Estilos para clearfix
+@import "grid"; 		// grid de la aplicación
+@import "variables"; 	// Variables de la aplicación
+@import "comunes";		// Estilos comunes
+@import "cabecera";     // Estilos para la cabecera
+@import "articulo";     // Estilos para los artículos
+@import "paginacion";   // Estilos para la paginación
+@import "footer";       // Estilos para el footer
