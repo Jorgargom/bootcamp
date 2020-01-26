@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Bicicleta",
+    "venta": true,
+    "precio": 249.99,
+    "foto": "/images/bicicleta.jpg",
+    "tags": ["lifestyle", "motor"]
+  },
+  {
+    "nombre": "iPhone X",
+    "venta": false,
+    "precio": 50.0,
+    "foto": "/images/iphoneX.jpg",
+    "tags": ["lifestyle", "mobile", "work"]
+  },
+  {
+    "nombre": "Motocicleta",
+    "venta": false,
+    "precio": 41.0,
+    "foto": "/images/motocicleta.jpg",
+    "tags": ["lifestyle", "motor"]
+  },
+  {
+    "nombre": "Tarjeta Gráfica",
+    "venta": false,
+    "precio": 9.80,
+    "foto": "/images/tarjeta.jpg",
+    "tags": ["lifestyle", "work", "mobile"]
+  }
+]
