@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block head_title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+
+  {% if post.user == user %}
+    <form method="post" style="align-self: flex-end; margin-bottom: 1em;">
+      {% csrf_token %}
+      {% if post.published_at == None %}
+        <button class="pure-button pure-button-primary" name="publish">Post Públicos</button>
+      {% endif %}
+      <button class="pure-button pure-button-error" name="delete">Borrar Post</button>
+    </form>
+  {% endif %}
+  <article>
+    {% if post.published_at == None %}
+      <span style="color: gray">draft</span>
+    {% endif %}
+    <h1>{{ post.title }}</h1>
+    {% if post.image %}
+      <img src="{{ post.image }}" alt="{{ post.title }}">
+    {% endif %}
+    <h2>by @{{ post.user }}</h2>
+    <small>
+      {{ categories|join:', ' }}
+    </small>
+    <em>
+      {{ post.abstract }}
+    </em>
+    <p>
+      {{ post.body }}
+    </p>
+
+  </article>
+
+{% endblock %}
