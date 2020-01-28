@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Batman</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar__list">
+            <li class="navbar__item navbar__item--active">
+                <a href="#">Inicio</a>
+            </li>
+            <li class="navbar__item ">
+                <a href="#">Quien soy</a>
+            </li>
+            <li class="navbar__item ">
+                <a href="#">Equipo</a>
+            </li>
+            <li class="navbar__item ">
+                <a href="#">Transporte</a>
+            </li>
+            <li class="navbar__item ">
+                <a href="#">Contacto</a>
+            </li>
+            <li class="navbar__item ">
+                <a href="#">Tareas</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1 class="header__title">Batman</h1>
+        <!--<img class="header__image" src="./images/batman.jpg" alt="Foto de Batman">-->
+        <div class="header__image"></div>
+        <p class="header__cite">"Él puede tomar la decisión que nadie más puede, la decisión correcta"</p>
+    </header>
+
+    <main class="container">
+        <section id="quien-soy" class="section-container">
+            <div class="about-me clearfix">
+                <div class="about-me__video">
+                    <video id="video" width="550" height="300" controls>
+                        <source src="./video/batman.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="about-me__info">
+                    <h2>Quien soy</h2>
+                    Batman:
+                    <span class="about-me__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea sint eligendi in, velit distinctio, natus,
+                        eius quae praesentium optio ex consectetur iste fugit harum odit? Soluta laborum aspernatur asperiores
+                        maxime.
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo" class="section-container">
+            <div class="row">
+                <div class="col-4">
+                    <article class="team-member">
+                        <header>
+                            <h3>
+                                Alfred Pennyworth
+                                <span class="team-member__real-name">(Michael Caine)</span>
+                            </h3>
+                            <h4 class="team-member__position">Mayordomo</h4>
+                        </header>
+                        <figure class="team-member__photo photo">
+                            <img src="./images/alfred.jpg" alt="Alfred Pennyworth">
+                            <figcaption class="photho__name">
+                                Alfred Pennyworth
+                            </figcaption>
+                        </figure>
+                        <p class="team-member__bio">"¿Por qué caemos, señor? Para que aprendamos a levantarnos" -
+                            <cite>Batman Begins</cite>
+                        </p>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="team-member">
+                        <header>
+                            <h3>
+                                Harvey Dent
+                                <span class="team-member__real-name">(Aaron Eckhart)</span>
+                            </h3>
+                            <h4 class="team-member__position">Fiscal del distrito</h4>
+                        </header>
+                        <figure class="team-member__photo photo">
+                            <div class="flip">
+                                <div class="flip__img flip__img--front">
+                                    <img src="./images/harvey.jpg" alt="Harvey">
+                                </div>
+                                <div class="flip__img flip__img--back">
+                                    <img src="./images/harvey-two-face.jpg" alt="Harvey">
+                                </div>
+                            </div>
+                            <figcaption class="photo__name">
+                                Harvey Dent
+                            </figcaption>
+                        </figure>
+                        <p class="team-member__bio">
+                            "O mueres como un héroe, o vives lo suficiente como para convertirte en el villano” -
+                            <cite>Batman El Caballero Oscuro</cite>
+                        </p>
+                    </article>
+                </div>
+                <div class="col-4">
+                    <article class="team-member">
+                        <header>
+                            <h3>
+                                James Gordon
+                                <span class="team-member__real-name">(Gary Oldman)</span>
+                            </h3>
+                            <h4 class="team-member__position">Policia</h4>
+                        </header>
+                        <figure class="team-member__photo photo">
+                            <img src="./images/gordon.jpg" alt="James Gordon">
+                            <figcaption class="photo__name">
+                                James Gordon
+                            </figcaption>
+                        </figure>
+                        <p class="team-member__bio">
+                            "Él es el héroe que Gotham merece, pero no el que necesita en este momento" -
+                            <cite>Batman El Caballero Oscuro</cite>
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="transporte" class="transport">
+            <div class="row-flex">
+                <div class="transport-item">
+                    <figure>
+                        <img class="transport-item__image" src="./images/car.jpg" alt="Coche">
+                        <figcaption>Coche de Batman</figcaption>
+                    </figure>
+                    <p class="transport-item__info">Fabricado en el año
+                        <time datetime="2005">2005</time> y se uso durante toda la trilogía.</p>
+                </div>
+                <div class="transport-item">
+                    <figure>
+                        <img class="transport-item__image" src="./images/moto.jpg" alt="Moto">
+                        <figcaption>Moto de Batman</figcaption>
+                    </figure>
+                    <p class="transport-item__info">
+                        Fabricado en el año
+                        <time datetime="2005">2005</time> y se uso durante toda la trilogía.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer row-flex">
+        Sergio Fernández &copy; 2017 KeepCoding
+    </footer>
+</body>
+
+</html>
