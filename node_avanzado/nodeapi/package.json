@@ -10,7 +10,7 @@
     "installDB": "node ./scripts/installDB"
   },
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "~1.18.2",
     "connect-mongo": "^2.0.1",
     "cookie-parser": "~1.4.3",
