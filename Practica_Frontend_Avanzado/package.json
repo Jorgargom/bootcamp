@@ -30,7 +30,7 @@
     "image-webpack-loader": "^4.1.0",
     "json-loader": "^0.5.7",
     "json-server": "^0.12.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0",
