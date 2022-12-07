@@ -16,7 +16,7 @@
     "cross-env": "^5.1.1",
     "debug": "~2.6.3",
     "ejs": "~2.5.6",
-    "express": "~4.15.2",
+    "express": "~4.17.3",
     "express-upload": "^0.1.0",
     "fs": "0.0.1-security",
     "hash.js": "^1.1.3",
